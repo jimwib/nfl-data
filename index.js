@@ -126,7 +126,7 @@ function getData(year, week,type, probowl) {
 
     		} else {
 
-    			if(year < 2018) {
+    			if(year < 2020) {
     				console.log("End....." + week );
     				year = year +=1;
     				getData(year, 01, 'REG', false);
